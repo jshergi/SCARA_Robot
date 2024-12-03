@@ -1,12 +1,12 @@
-#SCARA Robot Control Software (ROBSIM)
+# SCARA Robot Control Software (ROBSIM)
 
-##Overview
+## Overview
 
 ROBSIM is a comprehensive software package designed for the simulation and control of a SCARA robot. 
 It includes essential components for matrix computations, kinematics, and trajectory planning, enabling efficient and accurate robot motion. 
 The project adheres to modular development principles, ensuring flexibility and ease of debugging.
 
-##Features
+## Features
 
     Matrix Computation
         Implements basic matrix routines with 3-tuple position vectors (x, y, z) and 3x3 rotation matrices (restricted to Z-axis rotations).
@@ -23,7 +23,7 @@ The project adheres to modular development principles, ensuring flexibility and 
         Supports cubic splines for trajectory generation, ensuring velocity continuity.
         Debugging aid: Plots x-y components of the trajectory on a 2D plane for visualization.
 
-##Debugging and Testing
+## Debugging and Testing
 
     Matrix Computations: Test basic matrix operations independently.
     Kinematics: Validate kinematic routines against known configurations and joint limits.
